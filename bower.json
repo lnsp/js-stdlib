@@ -1,0 +1,10 @@
+{
+  "name": "JSCL",
+  "version": "0.1.0",
+  "main": "lib/jscl.min.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    ".gitattributes"
+  ]
+}
