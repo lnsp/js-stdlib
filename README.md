@@ -11,3 +11,8 @@ The JSCL provides a standard set of data structure and algorithm implementations
 Usage
 -----------------
 Install the package using `bower install jcsl`. There should be a `lib` folder containing the minified and the standard version of the library. Just include it using the `<script>` tag.
+
+Data structures
+-----------------
+Included data structures are
+- Stacks (`push`, `pop`, `peek`, `empty`, `size`)
