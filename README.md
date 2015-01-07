@@ -15,4 +15,4 @@ Install the package using `bower install jcsl`. There should be a `lib` folder c
 Data structures
 -----------------
 Included data structures are
-- Stacks (`push`, `pop`, `peek`, `empty`, `size`)
+- Stacks (`push(obj)` | `pop()` | `peek()` | `empty()` | `size()`)
