@@ -14,5 +14,14 @@ Install the package using `bower install jscl`. There should be a `lib` folder c
 
 Data structures
 -----------------
-Included data structures are
-- Stacks (`push(obj)` | `pop()` | `peek()` | `empty()` | `size()`)
+###Common methods
+- `empty()` checks if the data structure has no content
+- `size()` returns the count of elements that the object contains
+- `clear()` deletes all objects in the container
+
+###Included data structures
+- Stacks (`push(obj)` | `pop()` | `peek()` | `empty()` | `size()` | `clear()`)
+- Queue (`offer(obj)`| `poll()`| `peek()` | `empty()` | `size()`| `clear()`)
+
+---------------------------------------------------------------------------------------------------
+[License (MIT)](LICENSE.TXT)
