@@ -24,4 +24,4 @@ Data structures
 - Queue (`offer(obj)`| `poll()`| `peek()` | `empty()` | `size()`| `clear()`)
 
 ---------------------------------------------------------------------------------------------------
-[License (MIT)](../blob/master/LICENSE.TXT)
+[License (MIT)](./LICENSE.txt)
