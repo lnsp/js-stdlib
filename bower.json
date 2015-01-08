@@ -4,7 +4,7 @@
   "main": "lib/jscl.min.js",
   "ignore": [
     ".jshintrc",
-    "**/*.txt",
+    ".git",
     ".gitattributes"
   ]
 }

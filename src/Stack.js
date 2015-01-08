@@ -3,7 +3,7 @@ A object generator for Stack container based on a linked reference implementatio
 */
 var JSContainerLibrary = JSContainerLibrary || {};
 JSContainerLibrary.Stack = function() {
-    var activeNode = undefined; // contains the data node that is on top of the stack
+    var activeNode; // contains the data node that is on top of the stack
     var size = 0; // data structure size
     return {
         /*
@@ -54,7 +54,14 @@ JSContainerLibrary.Stack = function() {
         Returns if the stack is empty or not.
         */
         empty: function() {
-            return size == 0;   
+            return size === 0;   
+        },
+        /*
+        Clears the stack by removing all references to the items.
+        */
+        clear: function() {
+            activeNode = undefined;
+            size = 0;
         }
     };
 };
